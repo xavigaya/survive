@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ca" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survive</title>
+    <script src="./js/survive.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./css/survive.css">
+  </head>
+  <body>
+    <header>
+      <h1>Survive</h1>
+      <h2>(... while you can ...)</h2>
+      <ul>
+        <li>Hora: <span id="ctlHora" class="ctl"></span></li>
+        <li>Dia: <span id="ctlDia" class="ctl"></span></li>
+        <li>Setmana: <span id="ctlSetmana" class="ctl"></span></li>
+        <li>Menjar: <span id="ctlMenjar" class="ctl"></span></li>
+        <li>Vida: <span id="ctlVida" class="ctl"></span></li>
+      </ul>
+    </header>
+    <section>
+      <div id="esport" class="itemsJoc">
+        <h3>Esport</h3>
+        <button type="button" name="btEsport"
+          onclick="" id="btEsport">Fer Esport</button>
+      </div>
+      <div id="menjar" class="itemsJoc">
+        <h3>Menjar: </h3>
+        <button type="button" name="btMenjar"
+          onclick="addMenjar();" id="btMenjar">Menjar</button>
+      </div>
+      <div id="dormir" class="itemsJoc">
+        <h3>Dormir: </h3>
+        <button type="button" name="btDormir"
+          onclick="addDormir()" id="btDormir">Dormir</button>
+      </div>
+    </section>
+  </body>
+</html>

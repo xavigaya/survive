@@ -1,0 +1,44 @@
+header {
+  margin: 1%;
+  padding: 1%;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+  width: 92%;
+}
+
+h1, h2, h3 {
+  color: lightblue;
+  text-shadow: 1px 1px 1px grey;
+  display: inline;
+}
+
+h2 {
+  color: lightgrey;
+  text-shadow: 1px 1px 1px lightblue;
+  margin-left: 5%;
+}
+
+h3 {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+li, .ctl {
+  width: 40px;
+  margin-right: 40px;
+  display: inline;
+}
+
+.itemsJoc {
+  float: left;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+  padding: 1%;
+  width: 28%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 200px;
+}
